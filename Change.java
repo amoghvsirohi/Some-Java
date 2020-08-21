@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Practice {
+class Change {
     private static void sum_up_recursive(ArrayList<Integer> numbers, int target, ArrayList<Integer> partial) {
         int s = 0;
         for (int x: partial) s += x;
